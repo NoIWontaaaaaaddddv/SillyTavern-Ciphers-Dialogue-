@@ -9,10 +9,7 @@ At the same time, it injects the original messages from before translation on me
 
 !! IMPORTANT !!
 
-Please be careful when enabling this on long, existing chats.
-If you open a chat with a huge history (50+ messages) that hasn't been translated yet, 
-the extension will attempt to translate/parse all of them at once. This may cause a temporary freeze, lag, or rate limiting, causing the 
-extension to stop working entirely.
+The extension takes a while to translate the quotes (because it's currently using external translation APIs).
 
 Currently, the extension can only handle text inside quotes, so any speech outside of it will not be captured!
 
